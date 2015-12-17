@@ -117,6 +117,7 @@ body {
 
 }
 
+
 /*SECTION*/
 
 .about_content {
@@ -148,6 +149,12 @@ body {
     clear: both;
     font-family: Comfortaa, sans-serif;
 }
+ 
+button {
+	color: #ee1289;
+ 	font-family: Mountains of Christmas, sans-serif;
+ 	box-shadow: 0 0 40px #000; 
+} 
 
 /*FOOTER*/
 
