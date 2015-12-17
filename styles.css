@@ -102,7 +102,6 @@ body {
 	border: 1px solid #777;
 	position: relative;
 	left: 20%;
-
 }
 
 .contact_img {
@@ -114,11 +113,32 @@ body {
     margin: 50px 0 0 120px;
     position: relative;
     left: 10%;
-
 }
 
+.fb, .twitter { 
+    width: 30px;
+    position: fixed;
+    border-radius: 50%;
+    left: 10px; 
+}
+
+.fb {
+	top: 10px;
+}
+
+.twitter {
+	width: 30px;
+	position: fixed;
+	border-radius: 50%;
+	left: 50px;
+	top: 10px;
+}
 
 /*SECTION*/
+
+.wrapper {
+	overflow: scroll;
+}
 
 .about_content {
 	float: left;
