@@ -1,45 +1,54 @@
 /*HEADER*/
 
-header {
-	background-color: #787878;
-	opacity: 0.7;
-	margin: 0 auto;
-}
 
 h1, h2 {
-	color: #fff;
+	color: #ffe4e1;
 	text-shadow: 5px 3px 10px #222;
+	text-align: center;
 }
 
 h1{
-    margin: 0 0 1px 15px;
-    padding-top: 20px;
-    text-align: left;
-
-}
+    margin-top: 70px;
+}    
 
 h2 {
-	float: left;
-	margin: 2px 0 0 30px;
 	font-size: 20px;
+	text-align: center;
+}
+
+h3 {
+	margin: 60px 0 0 0;
+	padding: 10px 0;
+	background-image: linear-gradient(to top, #4d4d4d 60%, #c9c9c9);
+	opacity: 0.8;
+	color: #db7093;
 }
 
 /*NAVIGATION*/
 
-.main_nav li {
-    display: inline-block;
-    margin: 0 50px 10px 50px;
-    text-align: center;
-    padding: 10px;
+.main_nav {
+   background-image: linear-gradient(to top, #4d4d4d 60%, #c9c9c9); 
+   opacity: 0.8;
+   border: 2px solid #474747;
+}
+
+.main_nav  li {
+	display: inline-block;
+	padding: 10px;
+	margin: 0 50px;
 }
 
 .main_nav li a {
 	text-decoration: none;
-	list-style: none;
-	color: #fff;
+	color: #ffe4e1;
 	text-shadow: 5px 3px 10px #222;
-	font-size: 20px;
+	font-size: 18px;
 }
+
+.main_nav li a:hover {
+	color: #ff82ab;
+}
+
 
 /*BODY*/
 
@@ -49,9 +58,23 @@ body {
 	margin: 0 auto;
 }
 
+/*PORTFOLIO*/
 
+.gallery a img {
+	width: 300px;
+	border: 3px solid #9e9e9e;
+	box-shadow: 0 0 40px #777;
+	margin: 60px 50px 20px;
+}
 
+.gallery li {
+	list-style: none;
+	float: left;
+}
 
+.gallery li a:hover img {
+	border: 3px solid #ff82ab;
+}
 
 
 
