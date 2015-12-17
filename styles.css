@@ -8,20 +8,21 @@ h1, h2 {
 }
 
 h1{
-    margin-top: 70px;
+    margin-top: 50px;
 }    
 
 h2 {
 	font-size: 20px;
 	text-align: center;
+	margin: 0 0 30px 0;
 }
 
 h3 {
 	margin: 60px 0 0 0;
 	padding: 10px 0;
-	background-image: linear-gradient(to top, #4d4d4d 60%, #c9c9c9);
+	background-image: linear-gradient(to top, #bebebe 60%, #f8f8ff);
 	opacity: 0.8;
-	color: #db7093;
+	color: #000;
 }
 
 /*NAVIGATION*/
@@ -29,12 +30,11 @@ h3 {
 .main_nav {
    background-image: linear-gradient(to top, #4d4d4d 60%, #c9c9c9); 
    opacity: 0.8;
-   border: 2px solid #474747;
 }
 
 .main_nav  li {
 	display: inline-block;
-	padding: 10px;
+	padding: 20px;
 	margin: 0 50px;
 }
 
@@ -76,5 +76,71 @@ body {
 	border: 3px solid #ff82ab;
 }
 
+.gallery p {
+	color: #4a4a4a;
+}
 
+.gallery em {
+	color: #8b475d;
+}
+
+.about_img {
+	width: 200px;
+	height: 300px;
+	margin: 80px;
+	float: left;
+	box-shadow: 0 0 40px #000;
+	border: 1px solid #777;
+	position: relative;
+	left: 20%;
+
+}
+
+.contact_img {
+	width: 500px;
+	height: 300px;
+	box-shadow: 0 0 40px #000;
+    float: left;
+    border: 1px solid #777;
+    margin: 50px 0 0 120px;
+    position: relative;
+    left: 10%;
+
+}
+
+/*SECTION*/
+
+.about_content {
+	float: left;
+	width: 400px;
+	position: relative;
+	left: 20%;
+	margin: 90px 0 0 5px;
+	color: #4a4a4a;
+	box-shadow: 0 0 40px #000;
+	padding: 40px 40px 100px;
+}
+
+.my_info {
+	color: #4a4a4a;
+	box-shadow: 0 0 40px #000;
+	float: left;
+	border: 1px solid #777;
+	padding: 50px 80px 165px 80px;
+	margin: 50px 20px 50px 0;
+	position: relative;
+	left: 15%;
+}
+
+.contact_details {
+    clear: both;
+}
+
+/*FOOTER*/
+
+footer { 
+	clear: both;
+	margin: 40px 0 30px 0;
+	color: #333;
+}
 
