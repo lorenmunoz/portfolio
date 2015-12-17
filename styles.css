@@ -5,14 +5,16 @@ h1, h2 {
 	color: #ffe4e1;
 	text-shadow: 5px 3px 10px #222;
 	text-align: center;
+	font-family: pacifico, sans-serif;
 }
 
 h1{
     margin-top: 50px;
+    font-size: 50px;
 }    
 
 h2 {
-	font-size: 20px;
+	font-size: 30px;
 	text-align: center;
 	margin: 0 0 30px 0;
 }
@@ -23,6 +25,8 @@ h3 {
 	background-image: linear-gradient(to top, #bebebe 60%, #f8f8ff);
 	opacity: 0.8;
 	color: #000;
+	font-family: Mountains of Christmas, sans-serif;
+	box-shadow: 0 0 40px #777;
 }
 
 /*NAVIGATION*/
@@ -30,6 +34,7 @@ h3 {
 .main_nav {
    background-image: linear-gradient(to top, #4d4d4d 60%, #c9c9c9); 
    opacity: 0.8;
+   box-shadow: 0 0 40px #000;
 }
 
 .main_nav  li {
@@ -43,10 +48,13 @@ h3 {
 	color: #ffe4e1;
 	text-shadow: 5px 3px 10px #222;
 	font-size: 18px;
+	font-family: Comfortaa, sans-serif;
 }
 
 .main_nav li a:hover {
 	color: #ff82ab;
+	font-family: Mountains of Christmas, sans-serif;
+	font-size: 21px;
 }
 
 
@@ -63,7 +71,7 @@ body {
 .gallery a img {
 	width: 300px;
 	border: 3px solid #9e9e9e;
-	box-shadow: 0 0 40px #777;
+	box-shadow: 0 0 40px #000;
 	margin: 60px 50px 20px;
 }
 
@@ -73,11 +81,12 @@ body {
 }
 
 .gallery li a:hover img {
-	border: 3px solid #ff82ab;
+	border: 4px solid #ff82ab;
 }
 
 .gallery p {
 	color: #4a4a4a;
+	font-family: Comfortaa, sans-serif;
 }
 
 .gallery em {
@@ -119,6 +128,7 @@ body {
 	color: #4a4a4a;
 	box-shadow: 0 0 40px #000;
 	padding: 40px 40px 100px;
+	font-family: Comfortaa, sans-serif;
 }
 
 .my_info {
@@ -130,10 +140,13 @@ body {
 	margin: 50px 20px 50px 0;
 	position: relative;
 	left: 15%;
+	font-family: Comfortaa, sans-serif;
 }
+
 
 .contact_details {
     clear: both;
+    font-family: Comfortaa, sans-serif;
 }
 
 /*FOOTER*/
@@ -142,5 +155,6 @@ footer {
 	clear: both;
 	margin: 40px 0 30px 0;
 	color: #333;
+	font-family: Comfortaa, sans-serif;
 }
 
